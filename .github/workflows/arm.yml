@@ -38,7 +38,7 @@ jobs:
           --api-key ${CORTEX_API_KEY} \
           --api-key-id ${CORTEX_API_KEY_ID} \
           --log-level error \
-          --soft-fail \ 
+          --soft-fail \
           code scan \
           --directory /home/code \
           --branch ${{ github.head_ref || github.ref_name }} \
