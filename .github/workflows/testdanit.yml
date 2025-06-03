@@ -46,6 +46,6 @@ jobs:
           --directory /home/code \
           --repo-id ${{github.repository}} \
           --branch ${{github.ref_name}} \
-          --source 'GITHUB' \
-          --create-repo-if-missing \
+          --source 'GITHUB_ACTIONS' \
+          --create-repo-if-missing
           
